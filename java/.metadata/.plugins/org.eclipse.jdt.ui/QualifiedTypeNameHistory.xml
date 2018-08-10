@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.Robot"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.io.FileFilter"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
+<fullyQualifiedTypeName name="org.dom4j.io.SAXReader"/>
+<fullyQualifiedTypeName name="java.io.StringReader"/>
+<fullyQualifiedTypeName name="javax.swing.text.Document"/>
+<fullyQualifiedTypeName name="org.dom4j.Document"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+<fullyQualifiedTypeName name="org.dom4j.io.XMLWriter"/>
+<fullyQualifiedTypeName name="org.dom4j.io.OutputFormat"/>
+<fullyQualifiedTypeName name="javax.xml.soap.SAAJResult"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="jxl.Sheet"/>
+<fullyQualifiedTypeName name="tool.CreateHeaderStr"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="tool.CreateServiceBlocks"/>
+<fullyQualifiedTypeName name="jxl.Workbook"/>
+<fullyQualifiedTypeName name="java.awt.font.NumericShaper.Range"/>
+<fullyQualifiedTypeName name="excelInfo.Input"/>
+<fullyQualifiedTypeName name="jxl.Range"/>
+<fullyQualifiedTypeName name="jxl.Cell"/>
+<fullyQualifiedTypeName name="excelInfo.Put"/>
+<fullyQualifiedTypeName name="excelInfo.IFWService"/>
+<fullyQualifiedTypeName name="excelInfo.Field"/>
+<fullyQualifiedTypeName name="excelInfo.Output"/>
+<fullyQualifiedTypeName name="excelInfo.BodyList"/>
+<fullyQualifiedTypeName name="tool.CreateReqRespStr"/>
+<fullyQualifiedTypeName name="tool.CreateMessage"/>
+<fullyQualifiedTypeName name="tool.CreatePortType"/>
+<fullyQualifiedTypeName name="tool.CreateBindings"/>
+<fullyQualifiedTypeName name="tool.CreateFile"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+</qualifiedTypeNameHistroy>

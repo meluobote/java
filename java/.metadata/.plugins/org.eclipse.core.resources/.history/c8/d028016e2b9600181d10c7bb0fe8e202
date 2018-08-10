@@ -1,0 +1,15 @@
+package file;
+
+public class FindContentInJavaFile {
+	/**
+	 * 获得目录下java文件中含有指定内容的java文件 或者直接
+	 * 查找该文件是否有指定内容，如果有那么打印该文件名
+	 * @param args
+	 */		
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

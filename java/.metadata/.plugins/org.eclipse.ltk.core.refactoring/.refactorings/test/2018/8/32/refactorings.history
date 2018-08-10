@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;jxl-1.0.jar&apos; to &apos;CREATEWSDL&apos;&#x0D;&#x0A;- Original project: &apos;test&apos;&#x0D;&#x0A;- Destination element: &apos;CREATEWSDL&apos;&#x0D;&#x0A;- Original element: &apos;jxl-1.0.jar&apos;" description="Copy file" destination="=CREATEWSDL" element1="jxl-1.0.jar" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1533692955699" units="0" version="1.0"/>
+</session>

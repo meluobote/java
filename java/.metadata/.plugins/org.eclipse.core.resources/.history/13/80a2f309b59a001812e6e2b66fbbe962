@@ -1,0 +1,9 @@
+package excelInfo;
+
+public class BodyList {
+	String listName;
+	int minRow;
+	int maxRow;
+	int len;
+	Field[] fields;
+}

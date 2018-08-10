@@ -1,0 +1,132 @@
+import java.io.File;
+import java.io.IOException;
+
+import excelInfo.BodyList;
+import excelInfo.Field;
+import excelInfo.IFWService;
+import excelInfo.Input;
+import excelInfo.Put;
+import jxl.Cell;
+import jxl.Range;
+import jxl.Sheet;
+import jxl.Workbook;
+import jxl.read.biff.BiffException;
+import tool.CreateHeaderStr;
+import tool.CreateServiceBlocks;
+
+public class Main {
+	public static final String PRE_IP="http://i.soa.abc.com/ifw/";
+	public static final int SERVICE_COLUMN=2;
+	public static final int PUT_COLUMN=5;
+	public static final int ISNESSARY=6;
+	public static final int LIST_COLUMN=7;
+	public static final int FIELD_COLUMN=8;
+	
+	//list name format
+	public static final String REQUEST_LIST_SUFFIX="RequestBodyList";
+	public static final String RESPONSE_LIST_SUFFIX="RequestBodyList";
+	public Main() throws BiffException, IOException {
+		// TODO Auto-generated constructor stub
+		Workbook book=Workbook.getWorkbook(new File("服务接口.xls"));
+		Sheet sheet = book.getSheet("系统服务接口清单");
+		int rownum=sheet.getRows();   //该函数计算结果可能不是实际想要的，如果多，删除多余的行
+		String Interfacename=sheet.getCell(1, 1).getContents().trim();
+		String total="";
+		total=total+CreateHeaderStr.createHeaderStr(PRE_IP+Interfacename);
+		
+		StringBuffer Service=new StringBuffer();
+		StringBuffer Message=new StringBuffer();
+		Message.append("<!-- MESSAGE BLOCKS -->");
+		StringBuffer PortType=new StringBuffer();
+		PortType.append("<!-- PORT TYPES -->");
+		PortType.append("<portType name=\"" +Interfacename +"\">");
+		
+		StringBuffer Binding=new StringBuffer();
+		Binding.append("<!-- BINDINGS -->");
+		Binding.append("<binding name=\"" +Interfacename+"SOAPBinding\" type=\"IFWXML:" +Interfacename +"\">");
+		Binding.append("<soap:binding transport=\"http://schemas.xmlsoap.org/soap/http\" style=\"document\"/>");
+		
+		StringBuffer ServiceBlocks=new StringBuffer();
+		ServiceBlocks.append(CreateServiceBlocks.getServiceBlocksStr(Interfacename));
+		
+		for(int i=1;i<rownum;i++){
+			String service_id=sheet.getCell(5, i).getContents().trim();
+			String service_name=sheet.getCell(4, i).getContents().trim();
+//			IFWService ifw=getSer
+			
+			//配置一半自动推出
+
+		}
+
+		
+	}
+	
+	private static void printPut(Put in){
+		Field[] infs=in.getFields();
+		for(Field f:infs){
+			System.out.println(f.getFieldName()+"  "+f.isNessarySign()+" "+f.getType());
+		}
+		if(in.isList_exist()){
+			BodyList bl=in.getBodylist();
+			Field[] list_fields=bl.getFields();
+			System.out.println("\t"+bl.getListName());
+			for(Field f:list_fields){
+				System.out.println(f.getFieldName()+"  "+f.isNessarySign()+" "+f.getType());
+			}
+		}
+	}
+	
+	public static IFWService getServiceInfo(String serviceID, String serviceName) throws BiffException, IOException{
+		Workbook book=Workbook.getWorkbook(new File("服务接口.xls"));
+		Sheet sheet=book.getSheet("服务详细说明");
+		jxl.Range[] ranges=sheet.getMergedCells();
+		
+		IFWService service=new IFWService(serviceID, serviceName);
+		
+		//get Input of the serviceID
+		try{
+			Input in=new Input();
+			getInputRange(ranges, service, in);
+			
+			BodyList bl=new BodyList();
+			getListRange(ranges, in, bl);
+			
+			Field[] bodylist_fields=null;
+			if(in.isList_exist()){
+				setInputList(service, sheet, in, bl);
+				setInputFieldsWithList(sheet, in);
+			}else{
+				setInputFieldsWithoutList(sheet, in));
+			}
+			service.setInput(in);
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+
+	private static void getListRange(Range[] ranges, Put in, BodyList bl) {
+		// TODO Auto-generated method stub
+		for(Range range:ranges){
+			Cell tl=range.getTopLeft();
+			Cell br=range.getBottomRight();
+			if(tl.getColumn()==LIST_COLUMN && tl.getRow()>=in.getMinRow() && tl.getRow()<=in.getMaxRow()){
+				bl.setMinRow(tl.getRow());
+				bl.setMaxRow(br.getRow());
+				break;
+			}
+		}
+	}
+
+	private static void getInputRange(Range[] ranges, IFWService service, Input in) {
+		// TODO Auto-generated method stub
+		for(Range range:ranges){
+			Cell tl=range.getTopLeft();
+			Cell br=range.getBottomRight();
+			if(tl.getColumn()==PUT_COLUMN && tl.getContents().trim().equals("Input")&&tl.getRow()==service.getMinRow()){
+				in.setMinRow(tl.getRow());
+				in.setMaxRow(br.getRow());
+				break;
+			}
+		}
+	}
+}

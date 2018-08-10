@@ -1,0 +1,9 @@
+package excelInfo;
+
+public class Put {
+	int minRow;
+	int maxRow;
+	Field[] fields;
+	BodyList bodylist=null;
+	boolean list_exist=false;
+}

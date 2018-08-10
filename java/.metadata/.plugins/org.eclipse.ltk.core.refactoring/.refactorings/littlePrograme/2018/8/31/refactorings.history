@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;printDirTree.java&apos; to &apos;littlePrograme/file&apos;&#x0D;&#x0A;- Original project: &apos;littlePrograme&apos;&#x0D;&#x0A;- Destination element: &apos;littlePrograme/file&apos;&#x0D;&#x0A;- Original element: &apos;autoLogin.printDirTree.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/&lt;file" element1="/&lt;autoLogin{printDirTree.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1533196652867" units="1" version="1.0"/>
+</session>

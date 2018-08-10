@@ -1,0 +1,8 @@
+package tool;
+
+public class CreateMessage {
+	public static String getMessageBolcks(String operationname){
+		StringBuffer sb =new StringBuffer();
+		sb.append("<message name=\"" + operationname + "Request\">");
+	}
+}
