@@ -1,9 +1,0 @@
-package tool;
-
-public class CreateHeaderStr {
-	public static String createHeaderStr(String namespace){
-		StringBuffer sb=new StringBuffer()"<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
-		sb.append("<definitions name=\"IFWXML_WS\" targetNamespace=\""
-				+namespace+"\"");
-	}
-}

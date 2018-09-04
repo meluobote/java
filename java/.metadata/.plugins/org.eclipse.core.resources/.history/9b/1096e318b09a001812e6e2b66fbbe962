@@ -1,8 +1,0 @@
-package tool;
-
-public class CreateBindings {
-	public static String getBindings(String operationname){
-		String sb=new StringBuffer();
-		
-	}
-}
