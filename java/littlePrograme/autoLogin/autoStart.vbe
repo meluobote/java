@@ -1,2 +1,0 @@
-set ws=wscript.createobject("wscript.shell")
-ws.run "C:autoIput\autoStart.bat  /start", 0
