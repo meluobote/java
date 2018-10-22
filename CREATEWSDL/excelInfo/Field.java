@@ -1,11 +1,11 @@
 package excelInfo;
 
 public class Field {
-	int Row;
-	int Column;
-	boolean nessarySign;
-	String fieldName;
-	String type;  //type="IFWXML:RequestHeader" or"xsd:string" or "IFWXML:ResponseHeader"
+	private int Row;
+	private int Column;
+	private boolean nessarySign;
+	private String fieldName;
+	private String type;  //type="IFWXML:RequestHeader" or"xsd:string" or "IFWXML:ResponseHeader"
 	public Field(int row, int column, boolean nessarySign, String fieldName, String type) {
 		super();
 		Row = row;

@@ -1,11 +1,11 @@
 package excelInfo;
 
 public class BodyList {
-	String listName;
-	int minRow;
-	int maxRow;
-	int len;
-	Field[] fields;
+	private String listName;
+	private int minRow;
+	private int maxRow;
+	private int len;
+	private Field[] fields;
 	public String getListName() {
 		return listName;
 	}

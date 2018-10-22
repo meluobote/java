@@ -1,12 +1,12 @@
 package excelInfo;
 
 public class IFWService {
-	String	serviceID;
-	String serviceName;
-	int minRow;
-	int maxRow;
-	Input input;
-	Output output;
+	private String	serviceID;
+	private String serviceName;
+	private int minRow;
+	private int maxRow;
+	private Input input;
+	private Output output;
 	public IFWService(String serviceID, String serviceName) {
 		super();
 		this.serviceID = serviceID;

@@ -1,5 +1,4 @@
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 
 import org.dom4j.DocumentException;
@@ -36,7 +35,11 @@ public class Main {
 	public static final String RESPONSE_LIST_SUFFIX="RequestBodyList";
 	public static void main(String[] args)throws BiffException, IOException, DocumentException {
 		// TODO Auto-generated constructor stub
-		Workbook book=Workbook.getWorkbook(new File("服务接口.xls"));
+//		Workbook book=Workbook.getWorkbook(new File("servicesInterfaces.xls"));
+//		File f=new File("servicesInterfaces.xls");
+		File f = new File("CREATEWSDL\\servicesInterfaces.xls");
+
+		Workbook book=Workbook.getWorkbook(f);
 		Sheet sheet = book.getSheet("系统服务接口清单");
 		int rownum=sheet.getRows();   //该函数计算结CZBANK@35果可能不是实际想要的，如果多，删除多余的行
 		String Interfacename=sheet.getCell(1, 1).getContents().trim();
@@ -116,8 +119,8 @@ public class Main {
 		}
 	}
 	
-	public static IFWService getServiceInfo(String serviceID, String serviceName) throws BiffException, IOException{
-		Workbook book=Workbook.getWorkbook(new File("服务接口.xls"));
+	private static IFWService getServiceInfo(String serviceID, String serviceName) throws BiffException, IOException{
+		Workbook book=Workbook.getWorkbook(new File("CREATEWSDL\\servicesInterfaces.xls"));
 		Sheet sheet=book.getSheet("服务详细说明");
 		jxl.Range[] ranges=sheet.getMergedCells();
 		
@@ -208,11 +211,7 @@ public class Main {
 		for(int row=out.getMinRow();row<=out.getMaxRow();row++){
 			Cell content=sheet.getCell(FIELD_COLUMN, row);
 			Cell nessary=sheet.getCell(ISNESSARY, row);
-			if("Y".equals(nessary.getContents().trim())){
-				is_need=true;
-			}else{
-				is_need=false;
-			}
+			is_need = "Y".equals(nessary.getContents().trim());
 			
 			if("responseHeader".equals(content.getContents().trim())){
 				field_type="IFWXML:ResponseHeader";
@@ -232,11 +231,7 @@ public class Main {
 		for(int row=out.getMinRow();row<out.getBodylist().getMinRow();row++){
 			Cell content=sheet.getCell(FIELD_COLUMN, row);
 			Cell nessary=sheet.getCell(ISNESSARY, row);
-			if("Y".equals(nessary.getContents().trim())){
-				is_need=true;
-			}else{
-				is_need=false;
-			}
+			is_need = "Y".equals(nessary.getContents().trim());
 			
 			if("responseHeader".equals(content.getContents().trim())){
 				field_type="IFWXML:ResponseHeader";
@@ -250,11 +245,7 @@ public class Main {
 		for(int row=out.getBodylist().getMaxRow()+1; row<=out.getMaxRow();row++){
 			Cell content=sheet.getCell(FIELD_COLUMN, row);
 			Cell nessary=sheet.getCell(ISNESSARY, row);
-			if("Y".equals(nessary.getContents().trim())){
-				is_need=true;
-			}else{
-				is_need=false;
-			}
+			is_need = "Y".equals(nessary.getContents().trim());
 			
 			if("responseHeader".equals(content.getContents().trim())){
 				field_type="IFWXML:ResponseHeader";
@@ -276,11 +267,7 @@ public class Main {
 		for(int row=in.getMinRow();row<=in.getMaxRow();row++){
 			Cell content=sheet.getCell(FIELD_COLUMN, row);
 			Cell nessary=sheet.getCell(ISNESSARY, row);
-			if("Y".equals(nessary.getContents().trim())){
-				is_need=true;
-			}else{
-				is_need=false;
-			}
+			is_need = "Y".equals(nessary.getContents().trim());
 			
 			if("requestHeader".equals(content.getContents().trim())){
 				field_type="IFWXML:RequestHeader";
@@ -302,11 +289,7 @@ public class Main {
 		for(int row=in.getMinRow();row<in.getBodylist().getMinRow();row++){
 			Cell content=sheet.getCell(FIELD_COLUMN, row);
 			Cell nessary=sheet.getCell(ISNESSARY, row);
-			if("Y".equals(nessary.getContents().trim())){
-				is_need=true;
-			}else{
-				is_need=false;
-			}
+			is_need = "Y".equals(nessary.getContents().trim());
 			
 			if("requestHeader".equals(content.getContents().trim())){
 				field_type="IFWXML:RequestHeader";
@@ -320,11 +303,7 @@ public class Main {
 		for(int row=in.getBodylist().getMaxRow()+1; row<=in.getMaxRow();row++){
 			Cell content=sheet.getCell(FIELD_COLUMN, row);
 			Cell nessary=sheet.getCell(ISNESSARY, row);
-			if("Y".equals(nessary.getContents().trim())){
-				is_need=true;
-			}else{
-				is_need=false;
-			}
+			is_need = "Y".equals(nessary.getContents().trim());
 			
 			if("requestHeader".equals(content.getContents().trim())){
 				field_type="IFWXML:RequestHeader";

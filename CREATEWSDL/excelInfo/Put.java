@@ -1,11 +1,11 @@
 package excelInfo;
 
 public abstract class Put {
-	int minRow;
-	int maxRow;
-	Field[] fields;
-	BodyList bodylist=null;
-	boolean list_exist=false;
+	private int minRow;
+	private int maxRow;
+	private Field[] fields;
+	private BodyList bodylist=null;
+	private boolean list_exist=false;
 	
 	public int getMinRow() {
 		return minRow;
