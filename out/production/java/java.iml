@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CREATEWSDL" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/server_client" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/encodeAndDecode" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -29,5 +30,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" exported="" name="log4j-1.2.12" level="project" />
+    <orderEntry type="library" name="commons-codec-1.14" level="project" />
   </component>
 </module>
