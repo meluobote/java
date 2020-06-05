@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312"?>
+<root>
+    <head>
+        <id>12u3234jk</id>
+        <operator>jisdf</operator>
+    </head>
+    <body>
+        <a>0</a>
+        <b>1</b>
+        <persons>
+            <birth>20201023</birth>
+            <state>china</state>
+            <person>
+                <name>xxx</name>
+                <age>23ccc</age>
+            </person>
+            <person>
+                <name>fff</name>
+                <age>25www</age>
+            </person>
+        </persons>
+    </body>
+</root>

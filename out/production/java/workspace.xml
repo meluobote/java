@@ -2,44 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fdc76b4-2b8e-4f61-9278-e954a2b979be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encodeAndDecode/BASE64_E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-codec-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportTransfrom/xmlAndJson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportTransfrom/xmlAndJson/xml_json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/xml.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/com/me/server/zip/Base64.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/com/me/server/zip/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/com/me/server/zip/MyHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/com/me/server/zip/ZipUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/com/me/server/zip/Zip_Base64Handl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/com/me/server/zip/Zip_Base64Handl2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/com/me/server/zip/server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/com/sdfs/server/SDFSServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/com/sdfs/server/SDFSThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/excelInfo/BodyList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/excelInfo/Field.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/excelInfo/IFWService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/excelInfo/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/excelInfo/Output.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/excelInfo/Put.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/hanging/RobotHanging$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/hanging/RobotHanging.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/tool/CreateBindings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/tool/CreateFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/tool/CreateHeaderStr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/tool/CreateMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/tool/CreatePortType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/tool/CreateReqRespStr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/tool/CreateServiceBlocks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_client/hanging/RobotHanging$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/littlePrograme/hanging/RobotHanging$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_client/hanging/RobotHanging.class" beforeDir="false" afterPath="$PROJECT_DIR$/littlePrograme/hanging/RobotHanging.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_client/hanging/RobotHanging.java" beforeDir="false" afterPath="$PROJECT_DIR$/littlePrograme/hanging/RobotHanging.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,8 +90,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585731275537</updated>
-      <workItem from="1585731277253" duration="2579000" />
+      <workItem from="1585731277253" duration="2904000" />
+      <workItem from="1591319112834" duration="21000" />
+      <workItem from="1591328646163" duration="1579000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1585734058047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585734058048</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +109,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="567" y="349" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585731475678">
@@ -146,29 +125,45 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="504" y="340" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.920@0.0.1440.920" timestamp="1585731577609" />
-    <state width="1342" height="227" key="GridCell.Tab.0.bottom" timestamp="1585732530582">
+    <state x="305" y="54" key="CommitChangelistDialog2" timestamp="1585734056751">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1342" height="227" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1585732530582" />
-    <state width="1342" height="227" key="GridCell.Tab.0.center" timestamp="1585732530582">
+    <state x="305" y="54" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585734056751" />
+    <state width="1342" height="227" key="GridCell.Tab.0.bottom" timestamp="1585734183296">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1342" height="227" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1585732530582" />
-    <state width="1342" height="227" key="GridCell.Tab.0.left" timestamp="1585732530581">
+    <state width="1342" height="227" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1585734183296" />
+    <state width="1342" height="227" key="GridCell.Tab.0.center" timestamp="1585734183296">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1342" height="227" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1585732530581" />
-    <state width="1342" height="227" key="GridCell.Tab.0.right" timestamp="1585732530582">
+    <state width="1342" height="227" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1585734183296" />
+    <state width="1342" height="227" key="GridCell.Tab.0.left" timestamp="1585734183296">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1342" height="227" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1585732530582" />
+    <state width="1342" height="227" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1585734183296" />
+    <state width="1342" height="227" key="GridCell.Tab.0.right" timestamp="1585734183296">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1342" height="227" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1585734183296" />
     <state x="222" y="102" key="SettingsEditor" timestamp="1585732763093">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="102" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1585732763093" />
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1585734061324">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585734061324" />
+    <state x="404" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1591328651356">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="404" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1591328651356" />
     <state x="513" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585732846255">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="513" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.920@0.0.1440.920" timestamp="1585732846255" />
+    <state x="383" y="209" width="672" height="678" key="search.everywhere.popup" timestamp="1591329556484">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="383" y="209" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1591329556484" />
   </component>
 </project>

@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/CREATEWSDL" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/server_client" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/encodeAndDecode" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/reportTransfrom" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
