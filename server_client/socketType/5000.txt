@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GBK"?>
+<CFX>
+    <HEAD>
+        <APP>CNNONTAX</APP>
+        <VER>1.0</VER>
+        <SRC>CZ</SRC>
+        <MsgNo>5000</MsgNo>
+    </HEAD>
+    <MSG>
+        <MOF>
+            <VoucherCount>1</VoucherCount>
+            <VoucherBody AdmDivCode="120000" StYear="2020">
+                <Voucher>
+                    <GCType>JF01</GCType>
+                    <Date>20201231</Data>
+                </Voucher>
+            </VoucherBody>
+        </MOF>
+    </MSG>
+</CFX>

@@ -1,12 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fdc76b4-2b8e-4f61-9278-e954a2b979be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reportTransfrom/xmlAndJson/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reportTransfrom/xmlAndJson/xml_json.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/xml.txt" afterDir="false" />
+    <list default="true" id="3d249149-970c-4485-9a41-950137e346eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Message/XML/MyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileHandler/ReadExample01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileHandler/t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server_client/ConfigurationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server_client/httpType/client/Client01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server_client/httpType/server/Server01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server_client/socketType/5000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server_client/socketType/CZFSThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server_client/socketType/Client_SendByCzfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server_client/socketType/Server_czfs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportTransfrom/xmlAndJson/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportTransfrom/xmlAndJson/xml_json.java" beforeDir="false" afterPath="$PROJECT_DIR$/Message/messageTransfrom/xmlAndJson/xml_json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_client/com/sdfs/server/SDFSThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/server_client/com/sdfs/server/SDFSThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,147 +53,89 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ZvtDUtxM2qfYdTo0mUO6uYSJcm" />
+  <component name="ProjectId" id="1lPeKih9Fdjg0OjXT8nHUeEMd6v" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/encodeAndDecode" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\java\java\lib" />
+      <recent name="$PROJECT_DIR$/Message" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\java\java\encodeAndDecode" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="socketType" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BASE64_E">
-    <configuration name="BASE64_E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BASE64_E" />
-      <module name="java" />
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotHanging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hanging.RobotHanging" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hanging.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.BASE64_E" />
-        <item itemvalue="Application.RobotHanging" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7fdc76b4-2b8e-4f61-9278-e954a2b979be" name="Default Changelist" comment="" />
-      <created>1585731275537</created>
+      <changelist id="3d249149-970c-4485-9a41-950137e346eb" name="Default Changelist" comment="" />
+      <created>1607503091958</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585731275537</updated>
-      <workItem from="1585731277253" duration="2904000" />
-      <workItem from="1591319112834" duration="21000" />
-      <workItem from="1591328646163" duration="1579000" />
+      <updated>1607503091958</updated>
+      <workItem from="1607503093306" duration="963000" />
+      <workItem from="1607507040860" duration="4000" />
+      <workItem from="1607588471536" duration="605000" />
+      <workItem from="1608022263361" duration="3916000" />
+      <workItem from="1608103995119" duration="7008000" />
+      <workItem from="1608179914778" duration="142000" />
+      <workItem from="1608188755306" duration="5445000" />
     </task>
-    <task id="LOCAL-00001" summary="1">
-      <created>1585734058047</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1585734058048</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="349" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585731475678">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state x="485" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608109370453">
+      <screen x="67" y="27" width="1533" height="997" />
     </state>
-    <state x="567" y="349" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.920@0.0.1440.920" timestamp="1585731475678" />
-    <state x="451" y="385" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585731571570">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state x="485" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/67.27.1533.997@67.27.1533.997" timestamp="1608109370453" />
+    <state x="237" y="179" width="1024" height="845" key="SettingsEditor" timestamp="1608189471754">
+      <screen x="67" y="27" width="1533" height="997" />
     </state>
-    <state x="451" y="385" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.920@0.0.1440.920" timestamp="1585731571570" />
-    <state x="504" y="340" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1585731577609">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state x="237" y="179" width="1024" height="845" key="SettingsEditor/67.27.1533.997@67.27.1533.997" timestamp="1608189471754" />
+    <state x="496" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1608107262952">
+      <screen x="67" y="27" width="1533" height="997" />
     </state>
-    <state x="504" y="340" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.920@0.0.1440.920" timestamp="1585731577609" />
-    <state x="305" y="54" key="CommitChangelistDialog2" timestamp="1585734056751">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="305" y="54" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1585734056751" />
-    <state width="1342" height="227" key="GridCell.Tab.0.bottom" timestamp="1585734183296">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1342" height="227" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1585734183296" />
-    <state width="1342" height="227" key="GridCell.Tab.0.center" timestamp="1585734183296">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1342" height="227" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1585734183296" />
-    <state width="1342" height="227" key="GridCell.Tab.0.left" timestamp="1585734183296">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1342" height="227" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1585734183296" />
-    <state width="1342" height="227" key="GridCell.Tab.0.right" timestamp="1585734183296">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1342" height="227" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1585734183296" />
-    <state x="222" y="102" key="SettingsEditor" timestamp="1585732763093">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="222" y="102" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1585732763093" />
-    <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1585734061324">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="313" y="193" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1585734061324" />
-    <state x="404" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1591328651356">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="404" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1591328651356" />
-    <state x="513" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585732846255">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="513" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.920@0.0.1440.920" timestamp="1585732846255" />
-    <state x="383" y="209" width="672" height="678" key="search.everywhere.popup" timestamp="1591329556484">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="383" y="209" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1591329556484" />
+    <state x="496" y="243" width="672" height="678" key="search.everywhere.popup/67.27.1533.997@67.27.1533.997" timestamp="1608107262952" />
   </component>
 </project>

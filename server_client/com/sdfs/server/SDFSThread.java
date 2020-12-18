@@ -51,7 +51,7 @@ public class SDFSThread extends Thread {
             }
 
             ClassLoader cl = SDFSThread.class.getClassLoader();
-            InputStream fileIs = cl.getResourceAsStream("D:\\code\\version\\java\\server_client\\com\\sdfs\\server\\3001.txt");
+            InputStream fileIs = cl.getResourceAsStream("D:\\code\\version\\java\\server_client\\com\\sdfs\\httpType.server\\3001.txt");
             SAXReader respSr = new SAXReader();
             Document respDoc = null;
             respDoc = respSr.read(fileIs);
