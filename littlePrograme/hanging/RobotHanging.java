@@ -1,32 +1,24 @@
 package hanging;
 
-import java.awt.AWTException;
-import java.awt.Robot;
+import java.awt.*;
 import java.awt.event.InputEvent;
 import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import org.dom4j.ElementHandler;
-
 public class RobotHanging {
 	Timer t = null;
 	Robot rb = null;
 	
-	public RobotHanging() {
+	public RobotHanging() throws AWTException {
 		super();
 		// TODO Auto-generated constructor stub
-		try{
-			rb = new Robot();
-		}catch(AWTException e){
-			e.printStackTrace();
-		}
+		rb = new Robot();
 	}
 	public void start(){
 		t = new Timer();
 		t.schedule(new TimerTask() {
-			
-			@Override
+
 			public void run() {
 				// TODO Auto-generated method stub
 				rb.mousePress(InputEvent.BUTTON1_MASK);
@@ -37,7 +29,7 @@ public class RobotHanging {
 		}, 1000, 300000);
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws AWTException {
 		// TODO Auto-generated method stub
 		RobotHanging rh = new RobotHanging();
 		rh.start();

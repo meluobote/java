@@ -1,62 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d249149-970c-4485-9a41-950137e346eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Message/XML/MyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fileHandler/ReadExample01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fileHandler/t.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server_client/ConfigurationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server_client/httpType/client/Client01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server_client/httpType/server/Server01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server_client/socketType/5000.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server_client/socketType/CZFSThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server_client/socketType/Client_SendByCzfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server_client/socketType/Server_czfs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reportTransfrom/xmlAndJson/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reportTransfrom/xmlAndJson/xml_json.java" beforeDir="false" afterPath="$PROJECT_DIR$/Message/messageTransfrom/xmlAndJson/xml_json.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_client/com/sdfs/server/SDFSThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/server_client/com/sdfs/server/SDFSThread.java" afterDir="false" />
+    <list default="true" id="b544c0da-963d-4213-8826-e3bf85d30464" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.jar" beforeDir="false" afterPath="$PROJECT_DIR$/java.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/littlePrograme/hanging/RobotHanging.java" beforeDir="false" afterPath="$PROJECT_DIR$/littlePrograme/hanging/RobotHanging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/hanging/RobotHanging$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/hanging/RobotHanging.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1lPeKih9Fdjg0OjXT8nHUeEMd6v" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1lrH61w9BG8yZr1eU5CYI6TBTEt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,77 +28,35 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Message" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="socketType" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3d249149-970c-4485-9a41-950137e346eb" name="Default Changelist" comment="" />
-      <created>1607503091958</created>
+      <changelist id="b544c0da-963d-4213-8826-e3bf85d30464" name="Default Changelist" comment="" />
+      <created>1608348110904</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607503091958</updated>
-      <workItem from="1607503093306" duration="963000" />
-      <workItem from="1607507040860" duration="4000" />
-      <workItem from="1607588471536" duration="605000" />
-      <workItem from="1608022263361" duration="3916000" />
-      <workItem from="1608103995119" duration="7008000" />
-      <workItem from="1608179914778" duration="142000" />
-      <workItem from="1608188755306" duration="5445000" />
+      <updated>1608348110904</updated>
+      <workItem from="1608348111947" duration="209000" />
+      <workItem from="1608348350993" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608109370453">
-      <screen x="67" y="27" width="1533" height="997" />
+    <state x="121" y="0" key="#Project_Structure" timestamp="1608348168869">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="485" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/67.27.1533.997@67.27.1533.997" timestamp="1608109370453" />
-    <state x="237" y="179" width="1024" height="845" key="SettingsEditor" timestamp="1608189471754">
-      <screen x="67" y="27" width="1533" height="997" />
+    <state x="121" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1608348168869" />
+    <state x="190" y="0" key="SettingsEditor" timestamp="1608348319874">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="237" y="179" width="1024" height="845" key="SettingsEditor/67.27.1533.997@67.27.1533.997" timestamp="1608189471754" />
-    <state x="496" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1608107262952">
-      <screen x="67" y="27" width="1533" height="997" />
-    </state>
-    <state x="496" y="243" width="672" height="678" key="search.everywhere.popup/67.27.1533.997@67.27.1533.997" timestamp="1608107262952" />
+    <state x="190" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608348319874" />
   </component>
 </project>
